@@ -19,3 +19,9 @@
 .contenedorimg{
 height: 100%;
 }
+.imgpublicacion{
+  float: left;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  padding-top: 20px;
+}
