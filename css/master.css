@@ -7,6 +7,7 @@
 }
 .socialnet{
   width: 30px;
+  z-index:0;
 }
 .viajes{
   width: 100%;
@@ -36,4 +37,19 @@ height: 100%;
   align-items: center;
   margin: 0 auto;
   width: 100%;
+}
+body{
+  background-image: url(https://ep00.epimg.net/elpais/imagenes/2018/05/08/album/1525772427_299226_1525783931_album_normal.jpg);
+  background-size: 100% auto;
+  background-position:center;
+  background-attachment: fixed;
+}
+.fondo{
+  height: 80px;
+  width: 100%;
+  position:fixed;
+  z-index:-10;
+}
+.trasfondo{
+  z-index:5;
 }
